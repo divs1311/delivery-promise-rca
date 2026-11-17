@@ -1,0 +1,3 @@
+scenario,orders_fixed,share_of_reviewed_orders,avg_score_uplift_naive,avg_score_uplift_adjusted,one_two_star_reviews_avoided_naive,share_of_all_1_2_star_avoided_naive,adjustment_factor
+A Seller hand-over fixed (seller-only late orders on time),782,0.008183340309753035,0.01488787247179258,0.0146553838181449,376.68547464735036,0.03080515821453634,0.9843840243736527
+B Every late order on time (upper bound),6378,0.06674340728338217,0.13485770145527795,0.13275176687632712,3391.201991433249,0.27733087924707633,0.9843840243736527

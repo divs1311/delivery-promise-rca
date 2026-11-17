@@ -1,0 +1,15 @@
+check_name,value
+raw orders,99441
+raw orders: status delivered,96478
+"raw orders: delivered but no delivery timestamp (dropped, R2)",8
+"raw orders: outside 2017-01..2018-08 window (dropped, R1)",349
+raw reviews,99224
+"orders with 2+ reviews (latest kept, R3)",547
+fct_orders rows (analysis base),96203
+fct_orders: duplicate order_id (must be 0),0
+fct_orders: with a review,95560
+fct_orders: review written before delivery date,4970
+"fct_orders: invalid leg sequence (excluded from attribution, R5)",185
+"fct_orders: multi-seller (no seller attribution, R6)",1272
+fct_orders: missing distance (zip not geocoded),1745
+fct_orders: promised_days <= 0 (must be 0),0

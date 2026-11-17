@@ -1,0 +1,6 @@
+data/raw/
+outputs/olist.duckdb
+outputs/olist.duckdb.wal
+__pycache__/
+.pytest_cache/
+.venv/
